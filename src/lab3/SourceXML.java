@@ -26,7 +26,6 @@ public class SourceXML {
 
     public Document getDOMParser() {
         try {
-           // FileInputStream fStream=new FileInputStream(path);
             DocumentBuilder xmlDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder();
             Document doc = xmlDoc.parse(fStream);
             doc.normalize();

@@ -58,6 +58,12 @@ public class JSONResult {
 //        }
 //    }
 
+    /**
+     * Recursive method
+     * @param nodeList
+     * @return JSONArray array that contains nodes and values of xml file
+     * @throws JSONException
+     */
     public static JSONArray getJSONArr(NodeList nodeList) throws JSONException {
         JSONArray arr=new JSONArray();
         JSONObject obj=new JSONObject();
